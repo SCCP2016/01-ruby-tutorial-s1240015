@@ -1,0 +1,5 @@
+a, b = STDIN.gets.split.map(&:to_i)
+d = a / b
+r = a - b * d
+f = (float)a / b
+puts d r f

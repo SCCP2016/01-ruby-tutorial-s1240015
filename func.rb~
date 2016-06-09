@@ -1,0 +1,5 @@
+def bmi(height,weight)
+ weight /(height / 100).to_f / (height / 100).to_f
+end
+
+puts bmi(178,60)
